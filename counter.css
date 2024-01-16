@@ -1,0 +1,35 @@
+body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    background-color: rgb(188, 188, 245);
+    width: 400px;
+    height: 400px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+#countLabel{
+  display: block;
+  text-align: center;
+  font-size: 10em;
+  font-family: Helvetica;
+}
+#btnContainer{
+    text-align: center;
+}
+.buttons{
+    padding: 10px 20px;
+    font-size: 1.5em;
+    color: white;
+    background-color: gray;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.buttons:hover{
+    background-color: hsl(214, 100%, 56%) ;
+}
